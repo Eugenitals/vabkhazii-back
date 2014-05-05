@@ -1,0 +1,33 @@
+<aspectj>
+<aspects>
+<aspect name="ru.wpe.abkhazia.domain.Rewiev_Roo_JavaBean"/>
+<aspect name="ru.wpe.abkhazia.domain.Resource_Roo_JavaBean"/>
+<aspect name="ru.wpe.abkhazia.domain.GeoPoint_Roo_Jpa_ActiveRecord"/>
+<aspect name="ru.wpe.abkhazia.domain.Entity_Roo_JavaBean"/>
+<aspect name="ru.wpe.abkhazia.domain.Region_Roo_JavaBean"/>
+<aspect name="ru.wpe.abkhazia.domain.Rewiev_Roo_ToString"/>
+<aspect name="ru.wpe.abkhazia.domain.Node_Roo_Jpa_Entity"/>
+<aspect name="ru.wpe.abkhazia.domain.Rewiev_Roo_Configurable"/>
+<aspect name="ru.wpe.abkhazia.domain.Resource_Roo_Jpa_Entity"/>
+<aspect name="ru.wpe.abkhazia.domain.Entity_Roo_Jpa_Entity"/>
+<aspect name="ru.wpe.abkhazia.domain.Region_Roo_Jpa_Entity"/>
+<aspect name="ru.wpe.abkhazia.domain.Resource_Roo_Configurable"/>
+<aspect name="ru.wpe.abkhazia.domain.Node_Roo_Configurable"/>
+<aspect name="ru.wpe.abkhazia.domain.Resource_Roo_Jpa_ActiveRecord"/>
+<aspect name="ru.wpe.abkhazia.domain.GeoPoint_Roo_Jpa_Entity"/>
+<aspect name="ru.wpe.abkhazia.domain.GeoPoint_Roo_JavaBean"/>
+<aspect name="ru.wpe.abkhazia.domain.Entity_Roo_Jpa_ActiveRecord"/>
+<aspect name="ru.wpe.abkhazia.domain.Region_Roo_ToString"/>
+<aspect name="ru.wpe.abkhazia.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="ru.wpe.abkhazia.domain.Rewiev_Roo_Jpa_ActiveRecord"/>
+<aspect name="ru.wpe.abkhazia.domain.Node_Roo_JavaBean"/>
+<aspect name="ru.wpe.abkhazia.domain.Node_Roo_Jpa_ActiveRecord"/>
+<aspect name="ru.wpe.abkhazia.domain.Resource_Roo_ToString"/>
+<aspect name="ru.wpe.abkhazia.domain.Region_Roo_Configurable"/>
+<aspect name="ru.wpe.abkhazia.domain.GeoPoint_Roo_Configurable"/>
+<aspect name="ru.wpe.abkhazia.domain.Rewiev_Roo_Jpa_Entity"/>
+<aspect name="ru.wpe.abkhazia.domain.Entity_Roo_Configurable"/>
+<aspect name="ru.wpe.abkhazia.domain.Region_Roo_Jpa_ActiveRecord"/>
+</aspects>
+</aspectj>
+

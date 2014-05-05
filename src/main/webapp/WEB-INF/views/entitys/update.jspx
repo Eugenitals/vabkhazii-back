@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ru_wpe_abkhazia_domain_Entity" modelAttribute="entity" path="/entitys" versionField="Version" z="/AKTJvFl2EVQ8S/rp7PLY1/YgAU=">
+        <field:checkbox field="active" id="c_ru_wpe_abkhazia_domain_Entity_active" z="n/GDrg16qQuX6ZrY5L0/H3sUDPE="/>
+        <field:input field="name" id="c_ru_wpe_abkhazia_domain_Entity_name" required="true" z="/uGirkvxn/EgcwCUlK8dpidRAyQ="/>
+        <field:select field="region" id="c_ru_wpe_abkhazia_domain_Entity_region" itemValue="id" items="${regions}" path="/regions" z="user-managed"/>
+        <field:select field="parent" id="c_ru_wpe_abkhazia_domain_Entity_parent" itemValue="id" items="${nodes}" path="/nodes" required="false" z="user-managed"/>
+        <field:textarea field="description" id="c_ru_wpe_abkhazia_domain_Entity_description" z="904hNIHvhg9qMfvCawYzRp5xdHk="/>
+        <field:select field="type" id="c_ru_wpe_abkhazia_domain_Entity_type" items="${entitytypes}" path="entitytypes" z="yhHMZEy603OiTjAZP8dD7h1tpJg="/>
+        <field:input field="phone" id="c_ru_wpe_abkhazia_domain_Entity_phone" z="a4j0T+1snJcKq1DLJHr+Bi0Djsw="/>
+        <field:input field="email" id="c_ru_wpe_abkhazia_domain_Entity_email" validationMessageCode="field_invalid_email" z="ubKKe6u0scZQr8k+dXlWSiHUR2Q="/>
+        <field:input field="site" id="c_ru_wpe_abkhazia_domain_Entity_site" z="bSYiFIjFlh3qyqBR9lu8A8fokAU="/>
+        <field:textarea field="worktime" id="c_ru_wpe_abkhazia_domain_Entity_worktime" z="e7q1o7w5CGcf0MXBaKwfFgEzSiQ="/>
+    </form:update>
+</div>

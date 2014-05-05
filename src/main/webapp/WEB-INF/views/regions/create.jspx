@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ru_wpe_abkhazia_domain_Region" modelAttribute="region" path="/regions" render="${empty dependencies}" z="BCCQG0MeZHvOB7qAHfOSJloG7sc=">
+        <field:checkbox field="active" id="c_ru_wpe_abkhazia_domain_Region_active" z="o8IfeoES+0drictb5TnuZK8WtcQ="/>
+        <field:input field="name" id="c_ru_wpe_abkhazia_domain_Region_name" required="true" z="MJPk4Q+0TTLwCTF+QBs0OXb7G7I="/>
+        <field:input field="weatherChanel" id="c_ru_wpe_abkhazia_domain_Region_weatherChanel" required="true" z="MJPk4Q+0TTLwCTF+QBs0OXb7G7I="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ru_wpe_abkhazia_domain_Region" render="${not empty dependencies}" z="3nIXlkecMjnz3uzeSvnPlPYfp7I="/>
+</div>

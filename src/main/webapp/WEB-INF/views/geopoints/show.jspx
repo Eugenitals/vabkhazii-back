@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ru_wpe_abkhazia_domain_GeoPoint" object="${geopoint}" path="/geopoints" z="vxBohSp7lsy2DUEAEOLiJgHBlO4=">
+        <field:display field="active" id="s_ru_wpe_abkhazia_domain_GeoPoint_active" object="${geopoint}" z="1eX7qO2M4fsg0w+6TL7jkzE/410="/>
+        <field:display field="latitude" id="s_ru_wpe_abkhazia_domain_GeoPoint_latitude" object="${geopoint}" z="eWaxAN0UDEHUwLIkY7rA4iwY9S4="/>
+        <field:display field="longitude" id="s_ru_wpe_abkhazia_domain_GeoPoint_longitude" object="${geopoint}" z="zCaIk38dJMkyFEh7xGWz540/psI="/>
+        <field:display field="address" id="s_ru_wpe_abkhazia_domain_GeoPoint_address" object="${geopoint}" z="WRk9cWrTGGCBVpG2UB2582L+HrI="/>
+        <field:display field="region" id="s_ru_wpe_abkhazia_domain_GeoPoint_region" object="${geopoint}" z="VcJ/GjzzJhL0bXnzHPRVc4GUtS0="/>
+        <field:display field="entity" id="s_ru_wpe_abkhazia_domain_GeoPoint_entity" object="${geopoint}" z="C/xMbaXTaSujszfutQmm8p/XYfg="/>
+    </page:show>
+</div>

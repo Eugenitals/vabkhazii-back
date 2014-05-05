@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ru_wpe_abkhazia_domain_Rewiev" object="${rewiev}" path="/rewievs" z="ImYVcEpfSXLpdxrhWK2+ehKWPOk=">
+        <field:display field="rating" id="s_ru_wpe_abkhazia_domain_Rewiev_rating" object="${rewiev}" z="kDJErOPn/+XuvKpxJAmB6w2dPUI="/>
+        <field:display field="title" id="s_ru_wpe_abkhazia_domain_Rewiev_title" object="${rewiev}" z="MUQ1j9pX/jaxIWx/XQtprI9bBcI="/>
+        <field:display field="comment" id="s_ru_wpe_abkhazia_domain_Rewiev_comment" object="${rewiev}" z="LEj9N1WfJz0RJoglHv8617v40hc="/>
+        <field:display date="true" dateTimePattern="${rewiev_postingdate_date_format}" field="postingDate" id="s_ru_wpe_abkhazia_domain_Rewiev_postingDate" object="${rewiev}" z="sU46NuMkFP3X6lOkso2QVKlK7LY="/>
+        <field:display field="entity" id="s_ru_wpe_abkhazia_domain_Rewiev_entity" object="${rewiev}" z="Vgwr9aoBODwrskhJpy6LGIg63v4="/>
+    </page:show>
+</div>

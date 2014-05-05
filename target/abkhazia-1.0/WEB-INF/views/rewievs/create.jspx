@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ru_wpe_abkhazia_domain_Rewiev" modelAttribute="rewiev" path="/rewievs" render="${empty dependencies}" z="QERdsdk5Fp6M9yPh7A3HblDU76I=">
+        <field:input field="rating" id="c_ru_wpe_abkhazia_domain_Rewiev_rating" required="true" z="CAct9A3NOG0516OaVMzSKFYAvhQ="/>
+        <field:input field="title" id="c_ru_wpe_abkhazia_domain_Rewiev_title" required="true" z="Hmn6Ylt66jRegkurmGl+i6abANk="/>
+        <field:textarea field="comment" id="c_ru_wpe_abkhazia_domain_Rewiev_comment" required="true" z="VBRFzcx5ggyQbLEJhbsYcAYelVY="/>
+        <field:select field="entity" id="c_ru_wpe_abkhazia_domain_Rewiev_entity" itemValue="id" items="${entitys}" path="/entitys" z="+F6gP9qcYlQmzOx/UZyFM4nXn88="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ru_wpe_abkhazia_domain_Rewiev" render="${not empty dependencies}" z="G2AJdQAVpJ/gWAxkSoOUQaM7mo4="/>
+</div>

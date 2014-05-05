@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ru_wpe_abkhazia_domain_Region" items="${regions}" z="Yb6n6K1G0zZ3S37uXrAA267+wNg=">
+        <table:table data="${regions}" id="l_ru_wpe_abkhazia_domain_Region" path="/regions" z="FKtgS+Ke8sN0Vhs+1VugPlNct60=">
+            <table:column id="c_ru_wpe_abkhazia_domain_Region_active" property="active" z="+gNk19rEj2KrMauPd/Ztd2gBsfs="/>
+            <table:column id="c_ru_wpe_abkhazia_domain_Region_name" property="name" z="BFMSKuvapWtRYCvzkVwStALD8u4="/>
+        </table:table>
+    </page:list>
+</div>

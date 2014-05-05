@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ru_wpe_abkhazia_domain_Rewiev" items="${rewievs}" z="04+F4JbqY7pH0zj5xPwc+3tTjuY=">
+        <table:table data="${rewievs}" id="l_ru_wpe_abkhazia_domain_Rewiev" path="/rewievs" z="m5NHaFfA/hyOhC3M/z4KA19GTPw=">
+            <table:column id="c_ru_wpe_abkhazia_domain_Rewiev_rating" property="rating" z="m9gShbX2Q6tJ3sDGEI1RLs8znZo="/>
+            <table:column id="c_ru_wpe_abkhazia_domain_Rewiev_title" property="title" z="T1pjnnsR59L2LqPRBwzYl8gVcMU="/>
+            <table:column id="c_ru_wpe_abkhazia_domain_Rewiev_comment" property="comment" z="SepS/sIPDQa746m88dYctSMb67s="/>
+            <table:column date="true" dateTimePattern="${rewiev_postingdate_date_format}" id="c_ru_wpe_abkhazia_domain_Rewiev_postingDate" property="postingDate" z="Xkm8Ooc7B3mbbTqNvRy9NuAwBR8="/>
+            <table:column id="c_ru_wpe_abkhazia_domain_Rewiev_entity" property="entity" z="0SiNf4/ooZ7r+I/FZsYTdgwBe/I="/>
+        </table:table>
+    </page:list>
+</div>

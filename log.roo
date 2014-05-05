@@ -1,0 +1,239 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-13 21:22:14
+// [failed] project --topLevelPackage ru.wpe.abkhazia
+project --topLevelPackage ru.wpe.abkhazia
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-13 21:23:21
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-13 21:37:32
+dependency add --groupId postgresql --artifactId postgresql --version 8.4.jdbc3
+persistence setup --database POSTGRES --provider HIBERNATE --databaseName a --userName postgres --password postgres
+persistence setup --database POSTGRES --provider HIBERNATE --databaseName abk --userName postgres --password postgres
+persistence setup --database POSTGRES --provider HIBERNATE --databaseName abkha --userName postgres --password postgres
+persistence setup --database POSTGRES --provider HIBERNATE --databaseName abkhazia --userName postgres --password postgres
+persistence setup --database POSTGRES --provider HIBERNATE --databaseName abkhazia --userName postgres --password 
+entity jpa --class ~.R
+entity jpa --class ~.Regi
+entity jpa --class ~.Region
+entity jpa --class ~.Region
+field string --fieldName n --notNull 
+field string --fieldName name --notNull 
+// [failed] field string --fieldName name --notNull
+hint web mvc
+web mvc setup
+web mvc all --package ~.web
+entity jpa --class ~.Region
+field string --fieldName name --notNull
+// [failed] field b --fieldName name --notNull 
+field boolean --fieldName a --notNull 
+field boolean --fieldName acv --notNull 
+field boolean --fieldName acvi --notNull 
+field boolean --fieldName acvit --notNull 
+field boolean --fieldName acvite --notNull
+field string --fieldName acvte --notNull 
+field string --fieldName acvtie --notNull 
+field string --fieldName act --notNull 
+field string --fieldName activ --notNull 
+field string --fieldName active --notNull 
+// [failed] field string --fieldName active --notNull
+// [failed] field b --fieldName active --notNull 
+// [failed] field boolean --fieldName active --notNull
+field boolean --fieldName active --notNull
+field string --fieldName i --notNull 
+field string --fieldName ic --notNull 
+field string --fieldName icon --notNull 
+                          help f
+                          help field
+// [failed] field string --fieldName i
+// [failed] field string --fieldName icon
+selenium test --controller ~.web.RegionController
+selenium test --controller ~.web.RegionController
+selenium test --controller ~.web.RegionController
+selenium test --controller ~.web.RegionController
+selenium test --controller ~.web.RegionController
+// [failed] perform tests
+// [failed]                      perform package
+field string --fieldName ш
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-14 00:05:52
+help c
+help cd
+help cd
+help 
+class --class ~.Region
+field string --fieldName icon
+field boolean --fieldName active --notNull
+field string --fieldName name --notNull
+// [failed] selenium test --controller ~.web.RegionController
+web mvc all --package ~.web
+entity jpa --class ~.Region
+// [failed] field boolean --fieldName active --notNull
+// [failed] field string --fieldName name --notNull
+// [failed] field string --fieldName icon
+field string --fieldName name --notNull
+field boolean --fieldName active --notNull
+field string --fieldName icon
+web mvc all --package ~.web
+web mvc all --package ~.web
+web mvc all --package ~.web
+help m
+help mvc
+help w
+help web
+web mvc all --package ~.web
+hint web mvc
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-14 01:00:47
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-14 01:02:36
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-14 01:02:44
+project --topLevelPackage ru.wpe.abkhazia
+dependency add --groupId postgresql --artifactId postgresql --version 9.0-801.jdbc3
+enum type --class ~.domain.ResourceType
+enum constant --name IMAGE
+help
+persistence setup --database POSTGRES --provider HIBERNATE --databaseName abkhazia --userName postgres --password
+entity jpa --class ~.domain.Resource
+field enum --fieldName type --type ~.domain.ResourceType
+field string --fieldName url --notNull
+entity jpa --class ~.domain.Region
+help field
+field string --fieldName name --notNull
+field string --fieldName icon
+field boolean --fieldName active --notNull
+entity jpa --class ~.domain.Category
+field string --fieldName icon
+field string --fieldName name --notNull
+field string --fieldName description
+field boolean --fieldName active --notNull
+field reference --fieldName _category --type ~.domain.Category
+// [failed] field reference --fieldName _category --type ~.domain.Category --cardinality ONE_TO_MANY
+// [failed] field reference --fieldName _category --type ~.domain.Category --cardinality MANY_TO_ONE
+field reference --fieldName _category --type ~.domain.Category --cardinality MANY_TO_ONE
+entity jpa --class ~.domain.Entity
+field boolean --fieldName active --notNull
+enum type --class ~.domain.EntityType
+// [failed] enum constant --name OBJECT
+enum constant --name PLACE
+enum constant --name EVENT
+field enum --fieldName type --type ~.domain.EntityType --class ~.domain.Entity
+field number --fieldName rate --notNull --type Integer
+field number --fieldName rate --notNull --type int
+field string --fieldName phone
+field string --fieldName email
+field string --fieldName site
+field string --fieldName worktime
+field string --fieldName name --notNull
+field string --fieldName description --notNull
+// [failed] field boolean --fieldName active --notNull
+field set --fieldName entities --type ~.domain.Entity --class ~.domain.Category --cardinality ONE_TO_MANY
+entity jpa --class ~.domain.Node
+field boolean --fieldName active --notNull
+field string --fieldName name --notNull
+field string --fieldName description
+field set --fieldName entities --type ~.domain.Node --class ~.domain.Node --cardinality ONE_TO_MANY
+field boolean --fieldName leaf --notNull
+entity jpa --class ~.domain.GeoPoint
+field number --fieldName latitude --notNull --type double
+field number --fieldName longitude --notNull --type double
+field string --fieldName adress
+field boolean --fieldName active --notNull
+entity jpa --class ~.domain.Rewiev
+field number --fieldName rating --notNull --type int
+field string --fieldName title --notNull
+field string --fieldName comment --notNull
+// [failed] field date --fieldName date --notNull --type clendar
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-14 02:08:25
+field date --fieldName message --notNull --type calendar --class ~.domain.Rewiev
+field date --fieldName message --notNull --type java.util.Date --class ~.domain.Rewiev
+field date --fieldName postingDate --notNull --type java.util.Date --class ~.domain.Rewiev
+field set --fieldName points --type ~.domain.GeoPoint --class ~.domain.Entity --cardinality ONE_TO_MANY
+field set --fieldName points --type ~.domain.GeoPoint --class ~.domain.Region --cardinality ONE_TO_MANY
+field set --fieldName rewievs --type ~.domain.Rewiev --class ~.domain.Entity --cardinality ONE_TO_MANY
+field set --fieldName resources --type ~.domain.Resource --class ~.domain.Region --cardinality MANY_TO_MANY
+field set --fieldName resources --type ~.domain.Resource --class ~.domain.Entity --cardinality MANY_TO_MANY
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-14 17:42:12
+help field
+help field string
+field string --fieldName icon --class ~.domain.Node
+field string --fieldName address --class ~.domain.GeoPoint
+web mvc setup
+web mvc all --package ~.web
+// [failed] perform package
+focus --class ~.domain.Node
+field reference --fieldName parent --type ~.domain.Node
+focus --class ~.domain.GeoPoint
+field reference --fieldName region --type ~.domain.Region
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-14 22:02:04
+focus --class ~.domain.GeoPoint
+field reference --fieldName entity --type ~.domain.Entity
+focus --class ~.domain.Rewiev
+field reference --fieldName entity --type ~.domain.Entity
+focus --class ~.domain.Resource
+field set --fieldName entities --type ~.domain.Entity --cardinality MANY_TO_MANY 
+focus --class ~.domain.Entity
+focus --class ~.domain.Resource
+field set --fieldName regions --type ~.domain.Region --cardinality MANY_TO_MANY 
+controller all --package ~.web
+web mvc all --package ~.web
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-24 15:33:15
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-24 17:14:26
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-25 00:59:24
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-25 17:10:51
+focus --class ~.domain.Node
+finder list
+finder add findNodesByParent
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-26 01:50:08
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-27 18:02:15
+web mvc all --package ~.web 
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-27 21:09:17
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-27 21:09:33
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-27 21:12:03
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-27 21:12:09
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-09 22:34:51
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-09 23:46:35
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-10 00:28:49
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-12 21:18:13
+// [failed] focus --class ~.Node
+// [failed] finder list
+focus --class ~.domain.Node
+finder list
+finder add --finderName findNodesByActiveNot
+focus --class ~.domain.Entity
+finder list
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-12 21:55:58
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-12 22:14:01
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-12 22:49:46
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-19 14:16:52
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-19 14:46:23
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-19 15:17:16
+focus --class ~.domain.Region
+field string    --fieldName filename        --notNull 
+field string    --fieldName description     --sizeMax 500
+field string    --fieldName contentType     --notNull 
+// [failed] field number --type integer   --fieldName size     --notNull 
+field number --type integer   --fieldName sizee --notNull 
+focus --class ~.domain.Resource
+field string    --fieldName filename        --notNull 
+field string    --fieldName description     --sizeMax 500
+field string    --fieldName contentType     --notNull 
+field number --type integer   --fieldName sizee --notNull 
+perform clean
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-19 17:18:22
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-19 17:19:06
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-20 01:43:12
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-06-11 00:38:35
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-06-12 17:22:26
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-06-12 17:36:21
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-06-15 21:31:05
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-07-02 01:13:56
+security setup
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-07-02 11:30:25

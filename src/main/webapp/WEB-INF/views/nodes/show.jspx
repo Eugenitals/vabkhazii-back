@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ru_wpe_abkhazia_domain_Node" object="${node}" path="/nodes" z="2NXhcNhL5tTLthQ/jSSUVBiFtU0=">
+        <field:display field="active" id="s_ru_wpe_abkhazia_domain_Node_active" object="${node}" z="JzYWf9dGjgufYbmzS4YpET4BeGg="/>
+        <field:display field="leaf" id="s_ru_wpe_abkhazia_domain_Node_leaf" object="${node}" z="YKPKwAnEVYQceHI/8boESxQrYG4="/>
+        <field:display field="name" id="s_ru_wpe_abkhazia_domain_Node_name" object="${node}" z="Mwd5mREnRNcDXTOQeWeSoVGZ3qg="/>
+        <field:display field="description" id="s_ru_wpe_abkhazia_domain_Node_description" object="${node}" z="suAogqw1XzafrQt6QXn4Qjix+20="/>
+        <field:display field="icon" id="s_ru_wpe_abkhazia_domain_Node_icon" object="${node}" z="3ZABz8BkxiIFF5jVJQn1C4rhyZ4="/>
+        <field:display field="parent" id="s_ru_wpe_abkhazia_domain_Node_parent" object="${node}" z="h1SOTDCmg8NMIlNAKl66x6d4zwQ="/>
+        <field:display field="entities" id="s_ru_wpe_abkhazia_domain_Node_entities" object="${node}" z="i6XqlLlSKSY8fmklBtEfGp7MWOg="/>
+    </page:show>
+</div>

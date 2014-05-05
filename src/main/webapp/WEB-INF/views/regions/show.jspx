@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ru_wpe_abkhazia_domain_Region" object="${region}" path="/regions" z="Qs2uhYBwURiDeCRZKa1We4gjm+Y=">
+        <field:display field="name" id="s_ru_wpe_abkhazia_domain_Region_name" object="${region}" z="Nd4BUr4Go7Z+oumSNYqmmNGfq6M="/>
+        <field:display field="active" id="s_ru_wpe_abkhazia_domain_Region_active" object="${region}" z="Sl3n0bzxLjN2yLVW7AvvkGdNzO8="/>
+        <field:display field="weatherChanel" id="s_ru_wpe_abkhazia_domain_Region_weatherChanel" object="${region}" z="Sl3n0bzxLjN2yLVW7AvvkGdNzO8="/>
+        <field:display field="points" id="s_ru_wpe_abkhazia_domain_Region_points" object="${region}" z="m/jqzHEdfHEpwWEF1QiQ2SokbM8="/>
+        <field:display field="entities" id="s_ru_wpe_abkhazia_domain_Region_enitys" object="${region}" z="j4v2jOeRVEhESKLLh6ust18jVTs="/>
+    </page:show>
+</div>

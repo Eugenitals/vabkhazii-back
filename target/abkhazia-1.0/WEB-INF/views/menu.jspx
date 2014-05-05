@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_region" z="c6fLb1dSC6E3lOpc6tTzfRXdsVo=">
+            <menu:item id="i_region_new" messageCode="global_menu_new" url="/regions?form" z="zcyY7k/YcUshfD7FTv/o/904YhM="/>
+            <menu:item id="i_region_list" messageCode="global_menu_list" url="/regions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="R4yrjjgk2KXYIlMw++M9nLkYTpE="/>
+        </menu:category>
+        <menu:category id="c_entity" z="iXHa1fwpPfVl8UGAiPoh0Ml+/2Y=">
+            <menu:item id="i_entity_new" messageCode="global_menu_new" url="/entitys?form" z="JPj1z0rbjYbJ6+LWR18NGqqUKdw="/>
+            <menu:item id="i_entity_list" messageCode="global_menu_list" url="/entitys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="xvmuCFC0Y47vADidpEsgmVproDg="/>
+        </menu:category>
+        <menu:category id="c_node" z="1BfWzBbme8JY4GYylULnesTcaFI=">
+            <menu:item id="i_node_new" messageCode="global_menu_new" url="/nodes?form" z="tj1P1wqQRAko39Fvin6hdqOR79o="/>
+            <menu:item id="i_node_list" messageCode="global_menu_list" url="/nodes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="AKlbqIMfx8JbSW5mVXqyCUncYdw="/>
+        </menu:category>
+        <menu:category id="c_geopoint" z="mWSomDdSuaDgDHdWPkOC15Vjcb4=">
+            <menu:item id="i_geopoint_new" messageCode="global_menu_new" url="/geopoints?form" z="IZgtOMmmVSQaIRYXH6RcytrFcA0="/>
+            <menu:item id="i_geopoint_list" messageCode="global_menu_list" url="/geopoints?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pj+toOOEN6QOfh8/GK0Z+0zYeio="/>
+        </menu:category>
+        <menu:category id="c_rewiev" z="q62FPe59evInm9ODoPe7KslFUQM=">
+            <menu:item id="i_rewiev_new" messageCode="global_menu_new" url="/rewievs?form" z="N6xLp8FAygLZrpitGvmNgislLdM="/>
+            <menu:item id="i_rewiev_list" messageCode="global_menu_list" url="/rewievs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Y1+Q0FE8Bm42BblIXvicV0pDqiU="/>
+        </menu:category>
+        <menu:category id="c_resource" z="QccBeAQCWbFlycIXkFVzmR8srU0=">
+            <menu:item id="i_resource_new" messageCode="global_menu_new" url="/resources?form" z="F3oI3tJDA/wuL+veUMAjUDRDeog="/>
+            <menu:item id="i_resource_list" messageCode="global_menu_list" url="/resources?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZL5DxNGlBKsVWtUkvdhfo6CYoIQ="/>
+        </menu:category>
+    </menu:menu>
+</div>

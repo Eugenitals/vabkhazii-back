@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ru_wpe_abkhazia_domain_Entity" object="${entity}" path="/entitys" z="YuAXo5rNC/Yi3QkBLXEoAQa4uG4=">
+        <field:display field="active" id="s_ru_wpe_abkhazia_domain_Entity_active" object="${entity}" z="/M6FB781r1c8L1f3tOYFuHBi+Cg="/>
+        <field:display field="name" id="s_ru_wpe_abkhazia_domain_Entity_name" object="${entity}" z="eqOKolAyPoOqEagKePQl7/QfnWI="/>
+        <field:display field="region" id="s_ru_wpe_abkhazia_domain_Entity_region" object="${entity}" z="VcJ/GjzzJhL0bXnzHPRVc4GUtS0="/>
+        <field:display field="description" id="s_ru_wpe_abkhazia_domain_Entity_description" object="${entity}" z="HPF20U92dS9ChLuqWZrAvgB6kA8="/>
+        <field:display field="type" id="s_ru_wpe_abkhazia_domain_Entity_type" object="${entity}" z="Xc2KaP5OQZ+qCMGfYpLWBa1ZCYc="/>
+        <field:display field="rate" id="s_ru_wpe_abkhazia_domain_Entity_rate" object="${entity}" z="sLggzF5ozixh3wX4zpDxS5gEAUw="/>
+        <field:display field="phone" id="s_ru_wpe_abkhazia_domain_Entity_phone" object="${entity}" z="56zfO40mw3s+MWjdDs0w2pl5G4k="/>
+        <field:display field="email" id="s_ru_wpe_abkhazia_domain_Entity_email" object="${entity}" z="0AP20DkGm8doo7xEC96fZ8XOCfk="/>
+        <field:display field="site" id="s_ru_wpe_abkhazia_domain_Entity_site" object="${entity}" z="LXq1IfNX6ewrLJDMUAKIWkm5plc="/>
+        <field:display field="worktime" id="s_ru_wpe_abkhazia_domain_Entity_worktime" object="${entity}" z="vyMQbrdRiYUfplSwKTrjAQ5YyIk="/>
+        <field:display field="resources" id="s_ru_wpe_abkhazia_domain_Entity_resources" object="${entity}" z="zkLxria85YmrteM7MtS9cqSJXvI="/>
+        <field:display field="icon" id="s_ru_wpe_abkhazia_domain_Entity_icon" object="${entity}" z="TDsQJgT2aualwtpx6ZV6+91BusM="/>
+        <field:display field="parent" id="s_ru_wpe_abkhazia_domain_Entity_parent" object="${entity}" z="BTofwEFV4i9XC92VRrPYc/Hvfgk="/>
+        <field:display field="points" id="s_ru_wpe_abkhazia_domain_Entity_points" object="${entity}" z="t+s7t7rhvHTwJBtVS4eSGtGY2Ho="/>
+        <field:display field="rewievs" id="s_ru_wpe_abkhazia_domain_Entity_rewievs" object="${entity}" z="YL+RBtsiQSPIS/4I4RxfIDecqbk="/>
+    </page:show>
+</div>

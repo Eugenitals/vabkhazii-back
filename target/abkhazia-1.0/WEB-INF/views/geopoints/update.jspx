@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ru_wpe_abkhazia_domain_GeoPoint" modelAttribute="geoPoint" path="/geopoints" versionField="Version" z="jYFSNe8Oc/D8A1+gmo103y2enAc=">
+        <field:checkbox field="active" id="c_ru_wpe_abkhazia_domain_GeoPoint_active" z="ZVUD0tjx+z3zpDBFStGpZtSIoL4="/>
+        <field:input field="latitude" id="c_ru_wpe_abkhazia_domain_GeoPoint_latitude" required="true" z="g5ZU9i5BPqEAkJcBesGQguo2bdM="/>
+        <field:input field="longitude" id="c_ru_wpe_abkhazia_domain_GeoPoint_longitude" required="true" z="YB1wrfPhaBK1r9URGGFVCwEZh14="/>
+        <field:input field="address" id="c_ru_wpe_abkhazia_domain_GeoPoint_address" z="kaNJE4KCpHQVKbYvcoppXbsofyI="/>
+        <field:select field="region" id="c_ru_wpe_abkhazia_domain_GeoPoint_region" itemValue="id" items="${regions}" path="/regions" z="etlyz+IKAV1MoQzyfrW3AshBHRY="/>
+        <field:select field="entity" id="c_ru_wpe_abkhazia_domain_GeoPoint_entity" itemValue="id" items="${entitys}" path="/entitys" z="OF+/KF4R066W4fcRBwuNked7VGQ="/>
+    </form:update>
+</div>

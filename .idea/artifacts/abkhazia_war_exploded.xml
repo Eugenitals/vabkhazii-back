@@ -2,10 +2,10 @@
   <artifact type="exploded-war" name="abkhazia:war exploded">
     <output-path>$PROJECT_DIR$/target/abkhazia-1.0</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="abkhazia/web/Web" />
+      <element id="javaee-facet-resources" facet="vabkhazii-back/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="abkhazia" />
+          <element id="module-output" name="vabkhazii-back" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />

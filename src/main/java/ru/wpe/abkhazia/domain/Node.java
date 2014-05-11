@@ -60,6 +60,14 @@ public class Node {
         return result;
     }
 
+    public static long countNodes() {
+        return entityManager().createQuery("SELECT COUNT(o) FROM Node o WHERE dtype = 'Node'", Long.class).getSingleResult();
+    }
+
+    public static List<Node> findNodeEntries(int firstResult, int maxResults) {
+        return entityManager().createQuery("SELECT o FROM Node o WHERE dtype = 'Node'", Node.class).setFirstResult(firstResult).setMaxResults(maxResults).getResultList();
+    }
+
     public static List<Node> findNodesByParent(Node parent, long regionId) {
         if (parent == null) {
             throw new IllegalArgumentException("The parent argument is required");
@@ -109,17 +117,23 @@ public class Node {
         return resultList;
     }
 
-    public static TypedQuery<Node> findNodesByActiveNot(Boolean active) {
-        if (active == null) throw new IllegalArgumentException("The active argument is required");
-        EntityManager em = Node.entityManager();
-        TypedQuery<Node> q = em.createQuery("SELECT o FROM Node AS o WHERE o.active IS NOT :active", Node.class);
-        q.setParameter("active", active);
-        return q;
+    public static List<Node> findAllNodes() {
+        return entityManager().createQuery("SELECT o FROM Node o WHERE dtype = 'Node'", Node.class).getResultList();
+    }
+
+    public static List<Node> findAllNodes(String like) {
+        if (like.length() == 0) {
+            return findAllNodes();
+        } else {
+            TypedQuery<Node> q =  entityManager().createQuery("SELECT o FROM Node o WHERE lower(o.name) LIKE :like AND dtype = 'Node'", Node.class);
+            q.setParameter("like", "%" + like.toLowerCase() + "%");
+            return q.getResultList();
+        }
     }
 
     public static List<Node> findRootNodes(long regionId) {
         EntityManager em = Node.entityManager();
-        TypedQuery<Node> q = em.createQuery("SELECT o FROM Node AS o WHERE o.parent IS NULL", Node.class);
+        TypedQuery<Node> q = em.createQuery("SELECT o FROM Node AS o WHERE o.parent IS NULL AND dtype = 'Node'", Node.class);
         Node root = q.getSingleResult();
 
         return findNodesByParent(root, regionId);

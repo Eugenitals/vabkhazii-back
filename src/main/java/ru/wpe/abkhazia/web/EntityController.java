@@ -64,6 +64,13 @@ public class EntityController {
         return "entitys/list";
     }
 
+    @RequestMapping(params = "find", method = RequestMethod.POST, produces = "text/html")
+    @Transactional
+    public String find(@RequestParam(value = "like", required = false) String like, Model uiModel) {
+        uiModel.addAttribute("entitys", Entity.findAllEntitys(like));
+        return "entitys/list";
+    }
+
     @RequestMapping(method = RequestMethod.POST, produces = "text/html")
     @Transactional
     public String create(@Valid Entity entity, BindingResult bindingResult, Model uiModel, HttpServletRequest httpServletRequest) {

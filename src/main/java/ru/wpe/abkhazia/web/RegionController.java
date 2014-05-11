@@ -5,10 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriUtils;
 import org.springframework.web.util.WebUtils;
 import ru.wpe.abkhazia.domain.*;
@@ -56,6 +53,13 @@ public class RegionController {
         } else {
             uiModel.addAttribute("regions", Region.findAllRegions());
         }
+        return "regions/list";
+    }
+
+    @RequestMapping(params = "find", method = RequestMethod.POST, produces = "text/html")
+    @Transactional
+    public String find(@RequestParam(value = "like", required = false) String like, Model uiModel) {
+            uiModel.addAttribute("regions", Region.findAllRegions(like));
         return "regions/list";
     }
 

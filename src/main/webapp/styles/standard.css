@@ -375,3 +375,17 @@ fieldset th {
 .inline-block {
     display: inline-block;
 }
+
+/* inline */
+.form-search {
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.form-search .label {
+    padding-right: 5px;
+}
+
+img.content {
+    width: 100%;
+}

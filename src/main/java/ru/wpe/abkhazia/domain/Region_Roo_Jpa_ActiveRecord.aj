@@ -24,10 +24,6 @@ privileged aspect Region_Roo_Jpa_ActiveRecord {
         return entityManager().createQuery("SELECT COUNT(o) FROM Region o", Long.class).getSingleResult();
     }
     
-    public static List<Region> Region.findAllRegions() {
-        return entityManager().createQuery("SELECT o FROM Region o", Region.class).getResultList();
-    }
-    
     public static Region Region.findRegion(Long id) {
         if (id == null) return null;
         return entityManager().find(Region.class, id);

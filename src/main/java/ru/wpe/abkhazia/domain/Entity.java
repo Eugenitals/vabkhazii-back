@@ -85,6 +85,16 @@ public class Entity extends Node {
         return entityManager().createQuery("SELECT o FROM Entity o ORDER BY o.rate DESC, o.name ASC", Entity.class).getResultList();
     }
 
+    public static List<Entity> findAllEntitys(String like) {
+        if (like.length() == 0) {
+            return findAllEntitys();
+        } else {
+            TypedQuery<Entity> q =  entityManager().createQuery("SELECT o FROM Entity o WHERE lower(o.name) LIKE :like", Entity.class);
+            q.setParameter("like", "%" + like.toLowerCase() + "%");
+            return q.getResultList();
+        }
+    }
+
     public static Entity findEntity(Long id) {
         if (id == null) return null;
         Entity result;

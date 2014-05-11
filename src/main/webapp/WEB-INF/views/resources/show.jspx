@@ -10,6 +10,7 @@
         <field:display field="sizee" id="s_ru_wpe_abkhazia_domain_Resource_sizee" label="Size" object="${resource}" z="user-managed"/>
         <field:display field="entity" id="s_ru_wpe_abkhazia_domain_Resource_entity" object="${resource}" z="OV5R3Maj4mR58UQWhZOHdxaQk0s="/>
         <field:a field="url" id="s_ru_wpe_abkhazia_domain_Resource_url" object="${resource}" z="user-managed"/>
-        <field:frame field="url" id="s_ru_wpe_abkhazia_domain_Resource_url" label="Content" object="${resource}" render="true" z="user-managed"/>
+        <!--<field:frame field="url" id="s_ru_wpe_abkhazia_domain_Resource_url" label="Content" object="${resource}" render="true" z="user-managed"/>-->
+        <img class="content" src="${resource['url']}"/>
     </page:show>
 </div>

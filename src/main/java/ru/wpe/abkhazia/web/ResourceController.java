@@ -99,6 +99,13 @@ public class ResourceController {
         return "resources/list";
     }
 
+    @RequestMapping(params = "find", method = RequestMethod.POST, produces = "text/html")
+    @Transactional
+    public String find(@RequestParam(value = "like", required = false) String like, Model uiModel) {
+        uiModel.addAttribute("resources", Resource.findAllResources(like));
+        return "resources/list";
+    }
+
     @RequestMapping(params = "form", produces = "text/html")
     @Transactional
     public String createForm(Model uiModel) {

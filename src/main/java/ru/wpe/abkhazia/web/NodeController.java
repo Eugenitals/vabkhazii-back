@@ -45,27 +45,22 @@ public class NodeController {
     @RequestMapping(method = RequestMethod.GET, produces = "text/html")
     @Transactional
     public String list(@RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, Model uiModel) {
-        List<Node> nodeList = new ArrayList<Node>();
         if (page != null || size != null) {
             int sizeNo = size == null ? 10 : size.intValue();
             final int firstResult = page == null ? 0 : (page.intValue() - 1) * sizeNo;
-
-            for (Node n : Node.findNodeEntries(firstResult, sizeNo)) {
-                if (!n.getLeaf()) {
-                    nodeList.add(n);
-                }
-            }
-
+            uiModel.addAttribute("nodes", Node.findNodeEntries(firstResult, sizeNo));
             float nrOfPages = (float) Node.countNodes() / sizeNo;
             uiModel.addAttribute("maxPages", (int) ((nrOfPages > (int) nrOfPages || nrOfPages == 0.0) ? nrOfPages + 1 : nrOfPages));
         } else {
-            for (Node n : Node.findAllNodes()) {
-                if (!n.getLeaf()) {
-                    nodeList.add(n);
-                }
-            }
+            uiModel.addAttribute("nodes", Node.findAllNodes());
         }
-        uiModel.addAttribute("nodes", nodeList);
+        return "nodes/list";
+    }
+
+    @RequestMapping(params = "find", method = RequestMethod.POST, produces = "text/html")
+    @Transactional
+    public String find(@RequestParam(value = "like", required = false) String like, Model uiModel) {
+        uiModel.addAttribute("nodes", Node.findAllNodes(like));
         return "nodes/list";
     }
 
@@ -130,13 +125,7 @@ public class NodeController {
     }
 
     void populateEditForm(Model uiModel, Node node) {
-        List<Node> nodeList = new ArrayList<Node>();
-        for (Node n : Node.findAllNodes()) {
-            if (!n.getLeaf()) {
-                nodeList.add(n);
-            }
-        }
-
+        List<Node> nodeList = Node.findAllNodes();
         nodeList.remove(node);
         uiModel.addAttribute("node", node);
         uiModel.addAttribute("nodes", nodeList);

@@ -11,7 +11,10 @@ import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
 import org.springframework.roo.addon.tostring.RooToString;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @RooJavaBean
 @RooToString
@@ -50,6 +53,29 @@ public class GeoPoint {
         TypedQuery<GeoPoint> q = em.createQuery("SELECT o FROM GeoPoint o WHERE o.active = :active", GeoPoint.class);
         q.setParameter("active", true);
         return q.getResultList();
+    }
+
+    public static List<GeoPoint> findAllGeoPoints() {
+        return entityManager().createQuery("SELECT o FROM GeoPoint o", GeoPoint.class).getResultList();
+    }
+
+    public static List<GeoPoint> findAllGeoPoints(String like) {
+        if (like.length() == 0) {
+            return findAllGeoPoints();
+        } else {
+            Set<Entity> entities = new HashSet<Entity>();
+            TypedQuery<Entity> qe =  entityManager().createQuery("SELECT o FROM Entity o WHERE lower(o.name) LIKE :like", Entity.class);
+            qe.setParameter("like", "%" + like.toLowerCase() + "%");
+            entities.addAll(qe.getResultList());
+
+            if (entities.size() > 0) {
+                TypedQuery<GeoPoint> qgp =  entityManager().createQuery("SELECT o FROM GeoPoint o WHERE o.entity IN :entities", GeoPoint.class);
+                qgp.setParameter("entities", entities);
+                return qgp.getResultList();
+            }
+
+            return new ArrayList<GeoPoint>();
+        }
     }
 
     @Override

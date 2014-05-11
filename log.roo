@@ -237,3 +237,81 @@ exit
 security setup
 exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-07-02 11:30:25
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-05-06 23:41:50
+download status
+download accept terms of use
+focus --class ~.domain.Entity
+focus --class ~.domain.Entity
+focus --class ~.domain.Entity
+// [failed] focus --class ~.domain.En 
+// [failed] finder list
+focus --class ~.domain.Entity
+focus --class ~.domain.Entity
+focus --class ~.domain.EntityType
+focus --class ~.domain.Entity 
+finder list
+finder add findEntitysByNameLike
+// [failed] focus --class ~.domain.Re
+focus --class ~.domain.Resource
+focus --class ~.domain.Resource
+focus --class ~.domain.Resource
+focus --class ~.domain.Resource
+focus --class ~.domain.Resource
+focus --class ~.domain.Resource
+finder list
+// [failed] finder add findResourcesByDescriptionLike
+focus --class ~.domain.Entity 
+web mvc scaffold --class ~.web.EntityController
+web mvc scaffold --class ~.web.EntityController
+web mvc c --class ~.web.EntityController
+web mvc all --package ~.web
+focus --class ~.domain.Entity 
+finder add findResourcesByDescriptionLike
+finder list
+finder add findEntitysByNameLike
+web mvc finder all
+web mvc finder all
+// [failed] web mvc finder add --class ~.web.EntityController --formBackingType ~.domain.Entity
+web mvc finder all
+// [failed] web mvc finder add --class ~.web.EntityController --formBackingType ~.domain.Entity
+// [failed] web mvc finder add --class ~.web.EntityController --formBackingType ~.domain.Entity
+web mvc controller --class com.foo.web.EntityController --preferredMapping /entityz
+web mvc controller --class ~.web.EntityController --preferredMapping /entityz
+// [failed] web mvc finder add --class ~.web.EntityController --formBackingType ~.domain.Entity
+web mvc finder all
+web mvc finder all 
+web mvc scaffold --class ~.web.EntityController
+web mvc scaffold --class ~.web.EntityController
+web mvc scaffold --class ~.web.EntityController
+focus --class ~.domain.Entity 
+web mvc finder all 
+// [failed] web mvc finder add --formBackingType ~.web.EntityController
+// [failed] web mvc finder add --formBackingType ~.domain.Entity
+// [failed] web mvc finder add --formBackingType ~.domain.Entity
+focus --class ~.web.EntityController
+focus --class ~.web.EntityController
+// [failed] web mvc finder add --formBackingType ~.domain.Entity
+// [failed] web mvc finder add --formBackingType ~.domain.Entity
+exit 
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-05-07 12:48:03
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-05-07 14:34:08
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-05-07 14:34:27
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-05-07 22:50:40
+focus --class ~.domain.Entity
+finder list
+// [failed] focus --class ~.domain.??
+// [failed] focus --class ~.domain.???
+focus --class ~.domain.Region
+focus --class ~.domain.Region 
+finder list
+finder add findRegionsByNameLike
+finder add findRegionsByNameLike
+focus --class ~.domain.Region 
+finder list
+finder add findRegionsByNameLike
+finder add findRegionsByNameLike
+focus --class ~.domain.Region 
+finder add findRegionsByNameLike
+finder add findRegionsByNameLike
+exit 
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-05-08 00:01:06

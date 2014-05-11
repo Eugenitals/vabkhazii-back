@@ -1,0 +1,16 @@
+<jsp:root version="2.0"
+          xmlns:jsp="http://java.sun.com/JSP/Page"
+          xmlns:spring="http://www.springframework.org/tags">
+    <jsp:output omit-xml-declaration="yes"/>
+
+    <jsp:directive.attribute name="action" type="java.lang.String" required="true" rtexprvalue="true"/>
+
+    <form class="form-search" action="${action}" method="POST" enctype="application/x-www-form-urlencoded">
+        <span class="label" for="like">
+            <spring:message code="search_label_search" htmlEscape="false"/>:
+        </span>
+        <input name="like" value=""/>
+        <spring:message code="button_find" var="button_find"/>
+        <input type="submit" value="${button_find}"/>
+    </form>
+</jsp:root>

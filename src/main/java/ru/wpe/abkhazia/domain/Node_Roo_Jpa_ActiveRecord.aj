@@ -20,21 +20,9 @@ privileged aspect Node_Roo_Jpa_ActiveRecord {
         return em;
     }
     
-    public static long Node.countNodes() {
-        return entityManager().createQuery("SELECT COUNT(o) FROM Node o", Long.class).getSingleResult();
-    }
-    
-    public static List<Node> Node.findAllNodes() {
-        return entityManager().createQuery("SELECT o FROM Node o", Node.class).getResultList();
-    }
-    
     public static Node Node.findNode(Long id) {
         if (id == null) return null;
         return entityManager().find(Node.class, id);
-    }
-    
-    public static List<Node> Node.findNodeEntries(int firstResult, int maxResults) {
-        return entityManager().createQuery("SELECT o FROM Node o", Node.class).setFirstResult(firstResult).setMaxResults(maxResults).getResultList();
     }
     
     @Transactional

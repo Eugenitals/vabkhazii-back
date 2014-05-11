@@ -24,10 +24,6 @@ privileged aspect GeoPoint_Roo_Jpa_ActiveRecord {
         return entityManager().createQuery("SELECT COUNT(o) FROM GeoPoint o", Long.class).getSingleResult();
     }
     
-    public static List<GeoPoint> GeoPoint.findAllGeoPoints() {
-        return entityManager().createQuery("SELECT o FROM GeoPoint o", GeoPoint.class).getResultList();
-    }
-    
     public static GeoPoint GeoPoint.findGeoPoint(Long id) {
         if (id == null) return null;
         return entityManager().find(GeoPoint.class, id);

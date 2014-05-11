@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+<div version="2.0"
+     xmlns:jsp="http://java.sun.com/JSP/Page"
+     xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+     xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+     xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
+    <form:search action="/resources?find"></form:search>
     <page:list id="pl_ru_wpe_abkhazia_domain_Resource" items="${resources}" z="NIZxdHRmxikZHUXmmatAH03tr/o=">
         <table:table data="${resources}" id="l_ru_wpe_abkhazia_domain_Resource" path="/resources" z="6ZEH3DvKqTiB4/uxpHzaqs63gIc=">
-            <table:column id="c_ru_wpe_abkhazia_domain_Resource_type" property="type" z="Uxi3E4DNnXZ7CP0CYFooxcVcHLU="/>
             <table:column id="c_ru_wpe_abkhazia_domain_Resource_filename" property="filename" z="X78dC9+erwPYCWghHXr49z4QH4M="/>
             <table:column id="c_ru_wpe_abkhazia_domain_Resource_description" property="description" z="Hu0POqPigSA8lrenpoQql9VNKbA="/>
             <table:column id="c_ru_wpe_abkhazia_domain_Resource_entity" property="entity" z="VrgdJGKJZgg4gc4l2VK7ej7Ydmw="/>

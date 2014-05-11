@@ -59,6 +59,13 @@ public class GeoPointController {
         return "geopoints/list";
     }
 
+    @RequestMapping(params = "find", method = RequestMethod.POST, produces = "text/html")
+    @Transactional
+    public String find(@RequestParam(value = "like", required = false) String like, Model uiModel) {
+        uiModel.addAttribute("geopoints", GeoPoint.findAllGeoPoints(like));
+        return "geopoints/list";
+    }
+
     @RequestMapping(method = RequestMethod.POST, produces = "text/html")
     @Transactional
     public String create(@RequestBody String body, @RequestParam(value = "active", required = true) Boolean active,

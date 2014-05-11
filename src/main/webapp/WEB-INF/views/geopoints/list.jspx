@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+<div version="2.0"
+     xmlns:jsp="http://java.sun.com/JSP/Page"
+     xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+     xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+     xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
+    <form:search action="/geopoints?find"></form:search>
     <page:list id="pl_ru_wpe_abkhazia_domain_GeoPoint" items="${geopoints}" z="9n9Ix2DlYWsOXdFRFGrcUo6wiMU=">
         <table:table data="${geopoints}" id="l_ru_wpe_abkhazia_domain_GeoPoint" path="/geopoints" z="3IoGdTXq9d7nsGZ0b0UawsKve+w=">
             <table:column id="c_ru_wpe_abkhazia_domain_GeoPoint_active" property="active" z="6rzMaR2syXcUp8G8ZQLak+DrqkY="/>

@@ -1,17 +1,18 @@
 package ru.wpe.abkhazia.domain;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
 import org.springframework.roo.addon.tostring.RooToString;
-import org.springframework.transaction.annotation.Transactional;
+
+import javax.persistence.*;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
+import javax.persistence.criteria.Subquery;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import java.util.List;
 
 @RooJavaBean
 @RooToString
@@ -59,7 +60,7 @@ public class Resource {
     }
 
     public static List<Resource> findResourceEntries(int firstResult, int maxResults) {
-        return entityManager().createQuery("SELECT o FROM Resource o", Resource.class).setFirstResult(firstResult).setMaxResults(maxResults).getResultList();
+        return allQueryWithoutContent().setFirstResult(firstResult).setMaxResults(maxResults).getResultList();
     }
 
     public static Resource findResource(Long id) {
@@ -68,24 +69,87 @@ public class Resource {
     }
 
     public static List<Resource> findAllResources() {
-        return entityManager().createQuery("SELECT o FROM Resource o", Resource.class).getResultList();
+        return allQueryWithoutContent().getResultList();
+    }
+
+    private static Query allQueryWithoutContent() {
+        CriteriaBuilder cb = entityManager().getCriteriaBuilder();
+        CriteriaQuery cq = cb.createQuery();
+        Root e = cq.from(Resource.class);
+        cq.select(cb.construct(Resource.class,
+                e.get("id"),
+                e.get("version"),
+                e.get("type"),
+                e.get("filename"),
+                e.get("description"),
+                e.get("contentType"),
+                e.get("sizee"),
+                e.get("entity")));
+        return entityManager().createQuery(cq);
+    }
+
+    public static List<Resource> findAllResources(String like) {
+        if (like.length() == 0) {
+            return findAllResources();
+        } else {
+            CriteriaBuilder cb = entityManager().getCriteriaBuilder();
+            CriteriaQuery cq = cb.createQuery();
+            Root e = cq.from(Resource.class);
+            cq.select(cb.construct(Resource.class,
+                    e.get("id"),
+                    e.get("version"),
+                    e.get("type"),
+                    e.get("filename"),
+                    e.get("description"),
+                    e.get("contentType"),
+                    e.get("sizee"),
+                    e.get("entity")))
+                    .where(cb.or(
+                            cb.like(cb.lower(e.get("description")), "%" + like.toLowerCase() + "%"),
+                            cb.like(cb.lower(e.get("filename")), "%" + like.toLowerCase() + "%")
+                    ));
+            return entityManager().createQuery(cq).getResultList();
+        }
     }
 
     public static long countResources() {
         return entityManager().createQuery("SELECT COUNT(o) FROM Resource o", Long.class).getSingleResult();
     }
 
-    public Resource() {}
+    public Resource() {
+    }
 
-    public Resource (Builder builder) {
-        type = builder.type;
-        filename = builder.filename;
-        description = builder.description;
-        contentType = builder.contentType;
-        sizee = builder.sizee;
-        content = builder.content;
-        url = builder.url;
-        entity = builder.entity;
+    public Resource(String description) {
+        this.description = description;
+    }
+
+    public Resource(Long id,
+                    Integer version,
+                    ResourceType type,
+                    String filename,
+                    String description,
+                    String contentType,
+                    long sizee,
+                    Entity entity) {
+        this.setId(id);
+        this.setVersion(version);
+        this.type = type;
+        this.filename = filename;
+        this.description = description;
+        this.contentType = contentType;
+        this.sizee = sizee;
+        this.entity = entity;
+    }
+
+    public Resource(Builder builder) {
+        this.type = builder.type;
+        this.filename = builder.filename;
+        this.description = builder.description;
+        this.contentType = builder.contentType;
+        this.sizee = builder.sizee;
+        this.content = builder.content;
+        this.url = builder.url;
+        this.entity = builder.entity;
     }
 
     public static class Builder {
@@ -118,7 +182,7 @@ public class Resource {
             return this;
         }
 
-        public Builder content(byte [] _val) {
+        public Builder content(byte[] _val) {
             content = _val;
             return this;
         }

@@ -94,19 +94,19 @@ public class Resource {
         } else {
             CriteriaBuilder cb = entityManager().getCriteriaBuilder();
             CriteriaQuery cq = cb.createQuery();
-            Root e = cq.from(Resource.class);
+            Root resourceRoot = cq.from(Resource.class);
             cq.select(cb.construct(Resource.class,
-                    e.get("id"),
-                    e.get("version"),
-                    e.get("type"),
-                    e.get("filename"),
-                    e.get("description"),
-                    e.get("contentType"),
-                    e.get("sizee"),
-                    e.get("entity")))
+                    resourceRoot.get("id"),
+                    resourceRoot.get("version"),
+                    resourceRoot.get("type"),
+                    resourceRoot.get("filename"),
+                    resourceRoot.get("description"),
+                    resourceRoot.get("contentType"),
+                    resourceRoot.get("sizee"),
+                    resourceRoot.get("entity")))
                     .where(cb.or(
-                            cb.like(cb.lower(e.get("description")), "%" + like.toLowerCase() + "%"),
-                            cb.like(cb.lower(e.get("filename")), "%" + like.toLowerCase() + "%")
+                            cb.like(cb.lower(resourceRoot.get("description")), "%" + like.toLowerCase() + "%"),
+                            cb.like(cb.lower(resourceRoot.get("filename")), "%" + like.toLowerCase() + "%")
                     ));
             return entityManager().createQuery(cq).getResultList();
         }

@@ -6,7 +6,7 @@
      xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <form:search action="/nodes?find"></form:search>
+    <form:search action="nodes?find"></form:search>
     <page:list id="pl_ru_wpe_abkhazia_domain_Node" items="${nodes}" z="RVipZx8vhttC61f/qVK3LNitPA4=">
         <table:table data="${nodes}" id="l_ru_wpe_abkhazia_domain_Node" path="/nodes" z="hHCb6c2OFu6MTnASmS5uMam4dxo=">
             <table:column id="c_ru_wpe_abkhazia_domain_Node_active" property="active" z="WS6ssBjwkiWyvQyX1S4L3rZxjJU="/>

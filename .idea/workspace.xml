@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Resource.java" line="127" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Resource.java" line="125" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Resource.java" line="22" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910d76b8-4cd4-40c6-bb5e-6ecdaec0761e" name="Default" comment="cleanup">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Resource.java" afterPath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Resource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entitys/list.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entitys/list.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/geopoints/list.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/geopoints/list.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nodes/list.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nodes/list.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regions/list.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regions/list.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/list.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/list.jspx" />
+    <list default="true" id="910d76b8-4cd4-40c6-bb5e-6ecdaec0761e" name="Default" comment="path fixes">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/styles/standard.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7e5190ab-6d64-456d-bad0-1307787dddfe" name="DONOTCOMMIT" comment="DONOTCOMMIT">
@@ -84,16 +79,65 @@
       <file leaf-file-name="list.jspx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rewievs/list.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="9" column="22" selection-start="948" selection-end="948" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jspx" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="column.tagx" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/column.tagx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="67" selection-start="3869" selection-end="3881" vertical-scroll-proportion="0.6115108" vertical-offset="325" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table.tagx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/table.tagx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="28" selection-start="2116" selection-end="2128" vertical-scroll-proportion="-5.1" vertical-offset="0" max-vertical-offset="2505">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.jspx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/list.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.6375" vertical-offset="0" max-vertical-offset="400">
+            <state line="11" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alt.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/alt.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="4852" max-vertical-offset="5610">
+              <folding>
+                <marker date="1399649522000" expanded="true" signature="371:420" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="396" column="14" selection-start="4776" selection-end="4781" vertical-scroll-proportion="0.0" vertical-offset="5805" max-vertical-offset="6180">
+              <folding>
+                <marker date="1405852398000" expanded="true" signature="371:420" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dd.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/dd.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -102,7 +146,7 @@
       <file leaf-file-name="list.jspx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entitys/list.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -111,7 +155,7 @@
       <file leaf-file-name="list.jspx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/geopoints/list.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -120,7 +164,7 @@
       <file leaf-file-name="list.jspx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nodes/list.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -129,7 +173,7 @@
       <file leaf-file-name="list.jspx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regions/list.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -187,7 +231,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/NodeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/Utility.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/show.jspx" />
         <option value="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Resource.java" />
@@ -196,6 +239,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nodes/list.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regions/list.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/list.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rewievs/list.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/column.tagx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
       </list>
     </option>
   </component>
@@ -298,6 +344,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -432,40 +479,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abkhazia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vabkhazii-back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="tags" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -501,6 +514,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abkhazia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vabkhazii-back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fields" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -748,7 +799,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -761,7 +811,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-roo-1.2.5.RELEASE" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1123,12 +1173,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="LOCAL" value="false" />
       <deployment />
@@ -1146,6 +1190,12 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.53" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -1284,7 +1334,6 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42493638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17073171" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1299,7 +1348,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2087518" sideWeight="0.43581617" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25394547" sideWeight="0.65281177" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25394547" sideWeight="0.65281177" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56361324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="92" width="1096" height="586" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -1308,6 +1357,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42493638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5071315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1316,8 +1366,8 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="92" width="1096" height="586" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1348637" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1348637" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56743" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -1341,8 +1391,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3244275" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25394547" sideWeight="0.34474328" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20907618" sideWeight="0.43581617" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20907618" sideWeight="0.43581617" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1362,7 +1412,8 @@
     <MESSAGE value="removed trash" />
     <MESSAGE value="finders added&#10;removed iframe from Resources show&#10;removed fetching content from findAllResources" />
     <MESSAGE value="cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
+    <MESSAGE value="path fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="path fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1376,34 +1427,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="19" selection-start="4828" selection-end="4847" vertical-scroll-proportion="-11.222222" vertical-offset="1227" max-vertical-offset="1635" />
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application_ru.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="19" selection-start="4555" selection-end="4555" vertical-scroll-proportion="-10.518518" vertical-offset="1141" max-vertical-offset="1515" />
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/create.tagx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="60" selection-start="2485" selection-end="2491" vertical-scroll-proportion="-6.3" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/standard.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.041899443" vertical-offset="0" max-vertical-offset="358" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/webmvc-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="36" selection-start="1148" selection-end="1152" vertical-scroll-proportion="-4.255102" vertical-offset="1386" max-vertical-offset="1680">
@@ -1473,9 +1496,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="17" selection-start="4208" selection-end="4208" vertical-scroll-proportion="0.33193278" vertical-offset="1117" max-vertical-offset="8745">
-          <folding />
-        </state>
+        <state line="108" column="17" selection-start="4208" selection-end="4208" vertical-scroll-proportion="0.33193278" vertical-offset="1117" max-vertical-offset="8745" />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f702982a/4d5bac46-b762-4ce0-a2d0-2a9c1d718691/abkhazia.public.node">
@@ -1587,15 +1608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="372" column="1" selection-start="4521" selection-end="4521" vertical-scroll-proportion="0.0" vertical-offset="5419" max-vertical-offset="5940">
-          <folding>
-            <marker date="1399833952000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="63" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7635">
@@ -1610,9 +1622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/show.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315">
-          <folding />
-        </state>
+        <state line="14" column="6" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/ResourceController.java">
@@ -1707,44 +1717,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rewievs/list.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entitys/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/geopoints/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nodes/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regions/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="330">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/dd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/alt.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5610">
+          <folding>
+            <marker date="1399649522000" expanded="true" signature="371:420" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rewievs/list.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="948" selection-end="948" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="396" column="14" selection-start="4776" selection-end="4781" vertical-scroll-proportion="0.0" vertical-offset="5805" max-vertical-offset="6180">
+          <folding>
+            <marker date="1405852398000" expanded="true" signature="371:420" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.6375" vertical-offset="0" max-vertical-offset="400">
+        <state line="11" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/table.tagx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="28" selection-start="2116" selection-end="2128" vertical-scroll-proportion="-5.1" vertical-offset="0" max-vertical-offset="2505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/column.tagx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="67" selection-start="3869" selection-end="3881" vertical-scroll-proportion="0.6115108" vertical-offset="325" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>

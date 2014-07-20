@@ -389,3 +389,19 @@ fieldset th {
 img.content {
     width: 100%;
 }
+
+table {
+    table-layout: fixed;
+}
+
+table th:empty {
+    width: 18px;
+}
+
+table td.utilbox {
+    width: 20px;
+}
+
+table td {
+    word-wrap:break-word;
+}

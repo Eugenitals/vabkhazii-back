@@ -148,6 +148,10 @@ public class ResourceController {
         resource.setEntity(Entity.findEntity(entityId));
         uiModel.asMap().clear();
         resource.persist();
+        if (resource.getEntity() != null) {
+            resource.getEntity().increaseVersion();
+        }
+
         return "redirect:/resources/" + encodeUrlPathSegment(resource.getId().toString(), httpServletRequest);
     }
 

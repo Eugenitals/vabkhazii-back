@@ -110,6 +110,10 @@ public class RewievController {
         review.merge();
         targetEntity.getRewievs().add(review);
         EntityController.calculateEntityRate(targetEntity);
+        if (review.getEntity() != null) {
+            review.getEntity().increaseVersion();
+        }
+
         return "redirect:/rewievs/" + encodeUrlPathSegment(review.getId().toString(), httpServletRequest);
     }
 

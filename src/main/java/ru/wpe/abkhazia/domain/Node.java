@@ -139,6 +139,16 @@ public class Node {
         return findNodesByParent(root, regionId);
     }
 
+    public void increaseVersion() {
+        int currentVersion = this.getVersion();
+        this.setVersion(++currentVersion);
+        this.persist();
+
+        if (this.getParent() != null) {
+            this.getParent().increaseVersion();
+        }
+    }
+
     @Override
     public String toString() {
         return "Категория {" + this.getName() + " (" + this.getId() + ")}";

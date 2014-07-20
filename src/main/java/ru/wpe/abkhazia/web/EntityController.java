@@ -100,6 +100,10 @@ public class EntityController {
         uiModel.asMap().clear();
         entity = entity.merge();
         EntityController.calculateEntityRate(entity);
+        if (entity.getParent() != null) {
+            entity.getParent().increaseVersion();
+        }
+
         return "redirect:/entitys/" + encodeUrlPathSegment(entity.getId().toString(), httpServletRequest);
     }
 

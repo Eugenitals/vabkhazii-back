@@ -114,6 +114,10 @@ public class GeoPointController {
         geoPoint.setRegion(Region.findRegion(region));
         geoPoint.setEntity(Entity.findEntity(entity));
         geoPoint.persist();
+        if (geoPoint.getEntity() != null) {
+            geoPoint.getEntity().increaseVersion();
+        }
+
         return "redirect:/geopoints/" + encodeUrlPathSegment(geoPoint.getId().toString(), httpServletRequest);
     }
 

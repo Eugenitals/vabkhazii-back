@@ -92,6 +92,10 @@ public class NodeController {
         }
         uiModel.asMap().clear();
         node.merge();
+        if (node.getParent() != null) {
+            node.getParent().increaseVersion();
+        }
+
         return "redirect:/nodes/" + encodeUrlPathSegment(node.getId().toString(), httpServletRequest);
     }
 

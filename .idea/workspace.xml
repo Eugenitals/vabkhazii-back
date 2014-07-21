@@ -5,13 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Resource.java" line="22" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910d76b8-4cd4-40c6-bb5e-6ecdaec0761e" name="Default" comment="incrace">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/EntityController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/EntityController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/GeoPointController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/GeoPointController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Node.java" afterPath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/NodeController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/NodeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/ResourceController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/ResourceController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/RewievController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/RewievController.java" />
+    <list default="true" id="910d76b8-4cd4-40c6-bb5e-6ecdaec0761e" name="Default" comment="increase parent version on update added">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7e5190ab-6d64-456d-bad0-1307787dddfe" name="DONOTCOMMIT" comment="DONOTCOMMIT">
@@ -84,7 +79,7 @@
       <file leaf-file-name="GeoPoint.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/GeoPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="57" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1965">
+            <state line="52" column="57" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="2235">
               <folding />
             </state>
           </provider>
@@ -93,7 +88,7 @@
       <file leaf-file-name="NodeController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/NodeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="24" selection-start="3924" selection-end="3924" vertical-scroll-proportion="-10.923077" vertical-offset="796" max-vertical-offset="1920">
+            <state line="89" column="24" selection-start="3924" selection-end="3924" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="2175">
               <folding />
             </state>
           </provider>
@@ -102,7 +97,7 @@
       <file leaf-file-name="RewievController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/RewievController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="31" selection-start="4950" selection-end="4950" vertical-scroll-proportion="-15.269231" vertical-offset="893" max-vertical-offset="2190">
+            <state line="107" column="31" selection-start="4950" selection-end="4950" vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="2505">
               <folding />
             </state>
           </provider>
@@ -111,16 +106,34 @@
       <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="59" selection-start="4586" selection-end="4586" vertical-scroll-proportion="0.0" vertical-offset="1498" max-vertical-offset="2355">
+            <state line="133" column="59" selection-start="4586" selection-end="4586" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2580">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ResourceController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/ResourceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="51" selection-start="6883" selection-end="6883" vertical-scroll-proportion="0.52729887" vertical-offset="1478" max-vertical-offset="2640">
+            <state line="136" column="34" selection-start="6136" selection-end="6136" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3060">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="422" column="39" selection-start="16415" selection-end="16415" vertical-scroll-proportion="0.44094488" vertical-offset="6218" max-vertical-offset="7665">
               <folding />
             </state>
           </provider>
@@ -129,7 +142,7 @@
       <file leaf-file-name="Entity_Roo_Jpa_ActiveRecord.aj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Entity_Roo_Jpa_ActiveRecord.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="16" column="5" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -138,7 +151,7 @@
       <file leaf-file-name="GeoPoint_Roo_Jpa_ActiveRecord.aj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/GeoPoint_Roo_Jpa_ActiveRecord.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="5" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1110">
+            <state line="50" column="5" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -167,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nodes/create.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/ddselect.tagx" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entityz/views.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entitys/views.xml" />
@@ -207,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/RewievController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/ResourceController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -308,7 +321,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -764,6 +776,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -776,7 +789,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-roo-1.2.5.RELEASE" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="MavenSettings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -785,6 +798,22 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJSPX" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="140" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="144" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="929" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="140" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="144" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="929" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -1306,15 +1335,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3486005" sideWeight="0.49027553" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56743" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3244275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25394547" sideWeight="0.34474328" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2087518" sideWeight="0.43581617" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2087518" sideWeight="0.43581617" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25394547" sideWeight="0.65281177" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56361324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56345177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="92" width="1096" height="586" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1324,6 +1352,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42493638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5071315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3244275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1380,7 +1409,8 @@
     <MESSAGE value="path fixes" />
     <MESSAGE value="actinos column length fix" />
     <MESSAGE value="actions column length fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="actions column length fix" />
+    <MESSAGE value="increase parent version on update added" />
+    <option name="LAST_COMMIT_MESSAGE" value="increase parent version on update added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1414,11 +1444,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f702982a/4d5bac46-b762-4ce0-a2d0-2a9c1d718691/abkhazia.public.geo_point">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="225" selection-end="231" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="225" selection-end="231" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar!/javax/persistence/TypedQuery.class">
@@ -1428,17 +1458,15 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="17" selection-start="4208" selection-end="4208" vertical-scroll-proportion="0.33193278" vertical-offset="1117" max-vertical-offset="8745">
-          <folding />
-        </state>
+        <state line="108" column="17" selection-start="4208" selection-end="4208" vertical-scroll-proportion="0.33193278" vertical-offset="1117" max-vertical-offset="8745" />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f702982a/4d5bac46-b762-4ce0-a2d0-2a9c1d718691/abkhazia.public.node">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/f702982a/4d5bac46-b762-4ce0-a2d0-2a9c1d718691/">
@@ -1487,11 +1515,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f702982a/4d5bac46-b762-4ce0-a2d0-2a9c1d718691/abkhazia.public.resource">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext-security.xml">
@@ -1506,18 +1534,6 @@
         <state line="20" column="29" selection-start="658" selection-end="658" vertical-scroll-proportion="0.34917355" vertical-offset="26" max-vertical-offset="510">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="63" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="287" selection-end="287" vertical-scroll-proportion="0.20642202" vertical-offset="0" max-vertical-offset="436" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/show.jspx">
@@ -1541,104 +1557,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/frame.tagx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="16" selection-start="2484" selection-end="2506" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="32" column="16" selection-start="2484" selection-end="2506" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/find.tagx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.49426934" vertical-offset="0" max-vertical-offset="698">
-          <folding />
-        </state>
+        <state line="23" column="48" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.49426934" vertical-offset="0" max-vertical-offset="698" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/search.tagx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="335" selection-end="335" vertical-scroll-proportion="0.14767933" vertical-offset="0" max-vertical-offset="711">
-          <folding />
-        </state>
+        <state line="7" column="47" selection-start="335" selection-end="335" vertical-scroll-proportion="0.14767933" vertical-offset="0" max-vertical-offset="711" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entitys/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="734">
-          <folding />
-        </state>
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/geopoints/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="734">
-          <folding />
-        </state>
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nodes/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="734">
-          <folding />
-        </state>
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regions/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="734">
-          <folding />
-        </state>
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.16348773" vertical-offset="0" max-vertical-offset="734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/dd.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/alt.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.4010553" vertical-offset="4852" max-vertical-offset="5610">
-          <folding>
-            <marker date="1399649522000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.4010553" vertical-offset="4852" max-vertical-offset="5610" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rewievs/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="948" selection-end="948" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="9" column="22" selection-start="948" selection-end="948" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="396" column="14" selection-start="4776" selection-end="4781" vertical-scroll-proportion="0.6833773" vertical-offset="5422" max-vertical-offset="6180">
-          <folding>
-            <marker date="1405852398000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="396" column="14" selection-start="4776" selection-end="4781" vertical-scroll-proportion="0.6833773" vertical-offset="5422" max-vertical-offset="6180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/resources/list.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="0.22479564" vertical-offset="0" max-vertical-offset="734">
-          <folding />
-        </state>
+        <state line="11" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="0.22479564" vertical-offset="0" max-vertical-offset="734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/table.tagx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="2116" selection-end="2128" vertical-scroll-proportion="0.36690646" vertical-offset="0" max-vertical-offset="2505">
-          <folding />
-        </state>
+        <state line="17" column="28" selection-start="2116" selection-end="2128" vertical-scroll-proportion="0.36690646" vertical-offset="0" max-vertical-offset="2505" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/column.tagx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="67" selection-start="3869" selection-end="3881" vertical-scroll-proportion="0.6115108" vertical-offset="325" max-vertical-offset="1020">
-          <folding />
-        </state>
+        <state line="50" column="67" selection-start="3869" selection-end="3881" vertical-scroll-proportion="0.6115108" vertical-offset="325" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Node_Roo_Jpa_ActiveRecord.aj">
@@ -1657,9 +1641,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar!/javax/persistence/EntityManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="821" selection-end="821" vertical-scroll-proportion="0.34444445" vertical-offset="82" max-vertical-offset="1365">
-          <folding />
-        </state>
+        <state line="23" column="9" selection-start="821" selection-end="821" vertical-scroll-proportion="0.34444445" vertical-offset="82" max-vertical-offset="1365" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/GeoPoint_Roo_Jpa_ActiveRecord.aj">
@@ -1685,9 +1667,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="0.20119224" vertical-offset="0" max-vertical-offset="671">
-          <folding />
-        </state>
+        <state line="10" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="0.20119224" vertical-offset="0" max-vertical-offset="671" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/domain/Entity.java">
@@ -1699,7 +1679,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/NodeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="24" selection-start="3924" selection-end="3924" vertical-scroll-proportion="-10.923077" vertical-offset="796" max-vertical-offset="1920">
+        <state line="89" column="24" selection-start="3924" selection-end="3924" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="2175">
           <folding />
         </state>
       </provider>
@@ -1727,7 +1707,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/RewievController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="31" selection-start="4950" selection-end="4950" vertical-scroll-proportion="-15.269231" vertical-offset="893" max-vertical-offset="2190">
+        <state line="107" column="31" selection-start="4950" selection-end="4950" vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="2505">
           <folding />
         </state>
       </provider>
@@ -1741,7 +1721,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/wpe/abkhazia/web/ResourceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="51" selection-start="6883" selection-end="6883" vertical-scroll-proportion="0.52729887" vertical-offset="1478" max-vertical-offset="2640">
+        <state line="136" column="34" selection-start="6136" selection-end="6136" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="422" column="39" selection-start="16415" selection-end="16415" vertical-scroll-proportion="0.44094488" vertical-offset="6218" max-vertical-offset="7665">
           <folding />
         </state>
       </provider>

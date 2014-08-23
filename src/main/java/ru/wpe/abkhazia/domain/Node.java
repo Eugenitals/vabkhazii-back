@@ -17,6 +17,7 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooToString
 @RooJpaActiveRecord
 public class Node {
+    public static final long NO_REGION = -1;
 
     @NotNull
     private Boolean active = true;
@@ -78,8 +79,14 @@ public class Node {
 
         EntityManager em = Node.entityManager();
 
-        TypedQuery<Node> q = em.createQuery("SELECT o FROM Node AS o WHERE o.region = :region AND o.active = :active", Node.class);
-        q.setParameter("region", Region.findRegion(regionId));
+        TypedQuery<Node> q;
+        if (NO_REGION == regionId) {
+            q = em.createQuery("SELECT o FROM Node AS o WHERE o.active = :active", Node.class);
+        }
+        else {
+            q = em.createQuery("SELECT o FROM Node AS o WHERE o.region = :region AND o.active = :active", Node.class);
+            q.setParameter("region", Region.findRegion(regionId));
+        }
         q.setParameter("active", true);
 
         availableList.addAll(q.getResultList());

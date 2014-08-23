@@ -34,11 +34,11 @@ public class NodeController {
 
     @RequestMapping(method = RequestMethod.GET, produces = "application/json")
     @Transactional
-    public List<Node> list(@RequestParam(value = "id", required = false) Long id, @RequestParam(value = "regionId", required = true) Long regionId) {
+    public List<Node> list(@RequestParam(value = "id", required = false) Long id, @RequestParam(value = "regionId", required = false) Long regionId) {
         if(id == null) {
-            return Node.findRootNodes(regionId);
+                return Node.findRootNodes(Node.NO_REGION);
         } else {
-            return Node.findNodesByParent(Node.findNode(id), regionId);
+                return Node.findNodesByParent(Node.findNode(id), Node.NO_REGION);
         }
     }
 
